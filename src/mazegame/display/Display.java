@@ -5,7 +5,8 @@ import java.awt.Canvas;
 import java.awt.Dimension;
 import javax.swing.JFrame;
 
-/*Display the game window*/
+/* This class sets up the Display and adds a canvas to the JFrame*/
+
 public class Display {
     
     private JFrame frame;   //display the canvas in the JFrame
