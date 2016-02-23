@@ -9,7 +9,6 @@ import mazegame.gfx.Animation;
 import mazegame.gfx.Assets;
 
 /* Contains the Mummy animations and movement code*/
-
 public class Mummy extends Monster{
 	
 	//Animations

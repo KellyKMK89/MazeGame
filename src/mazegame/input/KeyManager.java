@@ -3,9 +3,8 @@ package mazegame.input;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-/* KeyManager gets all key presses from the keyboard and stores
- * them in a boolean array*/
-
+/* KeyManager gets all key presses and releases from the keyboard input 
+ * and stores them in a boolean array*/
 public class KeyManager implements KeyListener{
 
 	private boolean[] keys;

@@ -11,13 +11,10 @@ public class PausedState extends State{
 
 	public PausedState(Handler handler) {
 		super(handler);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void tick() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

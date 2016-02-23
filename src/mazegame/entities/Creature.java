@@ -5,8 +5,11 @@ import java.awt.Graphics;
 import mazegame.Handler;
 import mazegame.tiles.Tile;
 
+
+/*Creature is the abstract class for all moving entities*/
 public abstract class Creature extends Entity{
 	
+	// Constants
 	public static final int DEFAULT_HEALTH = 10;
 	public static final float DEFAULT_SPEED = 1.7f;
 	public static final int DEFAULT_CREATURE_WIDTH = 32,

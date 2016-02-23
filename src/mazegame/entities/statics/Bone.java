@@ -1,12 +1,11 @@
 package mazegame.entities.statics;
 
 import java.awt.Graphics;
-
 import mazegame.Handler;
-import mazegame.entities.Entity;
 import mazegame.gfx.Assets;
 import mazegame.tiles.Tile;
 
+/*Code for the Bone class - a static entity */
 public class Bone extends StaticEntity{
 
 	public Bone(Handler handler, float x, float y) {

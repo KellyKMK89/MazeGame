@@ -9,7 +9,6 @@ import mazegame.gfx.Animation;
 import mazegame.gfx.Assets;
 
 /* Contains the Zombie animations and movement code*/
-
 public class Zombie extends Monster{
 	
 	//Animations

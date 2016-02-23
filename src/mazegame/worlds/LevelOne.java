@@ -6,8 +6,7 @@ import mazegame.entities.statics.Bone;
 import mazegame.entities.statics.Door;
 import mazegame.utils.BoneCounter;
 
-/*Adds entities to the level and loads the tiles from a text file*/
-
+/*Adds entities to the level and loads the map tiles from a text file to create Level One*/
 public class LevelOne extends World {
 	
 	public LevelOne(Handler handler) {

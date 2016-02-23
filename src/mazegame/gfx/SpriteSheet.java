@@ -10,7 +10,7 @@ public class SpriteSheet {
 		this.sheet = sheet;
 	}
 	
-	// crop a section of the spritesheet
+	// crop the selected section of the spritesheet
 	public BufferedImage crop(int x, int y, int width, int height){
 		return sheet.getSubimage(x, y, width, height);
 	}

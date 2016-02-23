@@ -9,7 +9,6 @@ import mazegame.gfx.Animation;
 import mazegame.gfx.Assets;
 
 /* Contains the Skeleton animations and movement code*/
-
 public class Skeleton extends Monster{
 	
 	//Animations

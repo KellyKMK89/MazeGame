@@ -2,11 +2,9 @@ package mazegame.gfx;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-
 import javax.imageio.ImageIO;
 
 /*This class contains a method to load images from the resources folder*/
-
 public class ImageLoader {
 
 	public static BufferedImage loadImage(String path){

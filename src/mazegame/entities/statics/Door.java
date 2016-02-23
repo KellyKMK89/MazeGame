@@ -6,6 +6,7 @@ import mazegame.Handler;
 import mazegame.gfx.Assets;
 import mazegame.tiles.Tile;
 
+/*Door is a static entity to be drawn at the exit of the level*/
 public class Door extends StaticEntity{
 
 	public Door(Handler handler, float x, float y) {

@@ -3,6 +3,7 @@ package mazegame.states;
 import java.awt.*;
 import mazegame.Handler;
 
+/*Create the beginning state of the game, the main menu*/
 public class MenuState extends State {
 	
 	public MenuState(Handler handler){
@@ -16,16 +17,9 @@ public class MenuState extends State {
 	    g.setFont(font);
 	    g.drawString(text, x, height);
 	}
-	
-	
-	@Override
-	public void tick() {
-		
-	}
 
 	@Override
-	public void render(Graphics g) {
-		
+	public void render(Graphics g) {		
 		Color darkRed = new Color(120,10,10);
 		Color olive = new Color(200,220,140);
 		g.setColor(olive);
@@ -43,6 +37,11 @@ public class MenuState extends State {
 		drawText(g, "Watch out for monsters!", 320, mainFont);
 		drawText(g, "Use W, A, S, D keys to move", 420, plainFont);	
 		drawText(g, "PRESS SPACEBAR TO START", 530, bigFont);	
+		
+	}
+
+	@Override
+	public void tick() {
 		
 	}
 

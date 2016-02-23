@@ -1,10 +1,10 @@
 package mazegame.states;
 
 import java.awt.Graphics;
-
 import mazegame.Handler;
 import mazegame.utils.Counter;
 
+/*The base class State which is inherited by all game states*/
 public abstract class State {
 
 	//State manager - holds the current state of the game

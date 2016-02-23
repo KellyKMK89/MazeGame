@@ -8,7 +8,6 @@ import mazegame.utils.Counter;	//don't remove
 import mazegame.utils.LifeCounter;
 
 /*STAT BAR shows player lives, bones collected and level number*/
-
 public class StatBar{
 
 	public int level = 1; 

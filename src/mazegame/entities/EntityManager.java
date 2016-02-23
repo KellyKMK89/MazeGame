@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 import mazegame.Handler;
 
+/*Entity Manager will store all of the static and non static entities in the game for 
+ * simplified rendering and ticking in the game loop*/
 public class EntityManager {
 	
 	private Handler handler;

@@ -7,18 +7,13 @@ import java.awt.Graphics;
 
 import mazegame.Handler;
 
+/*Creates the Game Over screen*/
 public class GameOverState extends State{
 
 	public GameOverState(Handler handler) {
 		super(handler);
-		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public void tick() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public void render(Graphics g) {
@@ -41,5 +36,8 @@ public class GameOverState extends State{
 	    g.drawString(text, x, height);
 	}
 
+	@Override
+	public void tick() {	
+	}
 	
 }

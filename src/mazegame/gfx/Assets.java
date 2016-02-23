@@ -7,7 +7,6 @@ import mazegame.gfx.SpriteSheet;
 
 /* Crop and store all sprites from the sprite sheets in arrays to be used for animation
  * Crop and store textures from sprite sheets to be used as tiles */
-
 public class Assets {
 	
 	private static final int width = 32, height = 32;
@@ -25,17 +24,13 @@ public class Assets {
 		SpriteSheet ssMummy = new SpriteSheet(ImageLoader.loadImage("/textures/ssMummy.png"));
 		SpriteSheet ssSkeleton = new SpriteSheet(ImageLoader.loadImage("/textures/ssSkeleton.png"));
 		
-		//player = ssPlayer.crop(0, 0, width, height);
 		floor = tileSheet.crop(width, 0, width, height);
 		wall = tileSheet.crop(0, 0, width, height);	
 		sand = tileSheet.crop(width*2, height, width, height);
 		stone = tileSheet.crop(width*2, 0, width, height);
 		hedge = tileSheet.crop(0, height, width, height);
 		grass = tileSheet.crop(width, height, width, height);
-
-		door = tileSheet.crop(0, height*2+1, width, height);
-		
-		//Bone
+		door = tileSheet.crop(0, height*2+1, width, height);	
 		bone = ImageLoader.loadImage("/textures/imgBone.png");
 		
 		

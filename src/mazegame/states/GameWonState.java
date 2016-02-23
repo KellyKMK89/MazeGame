@@ -4,19 +4,15 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
-
 import mazegame.Handler;
 
+/*This class creates the 'Game Won' screen on successfull completion of all three levels*/
 public class GameWonState extends State{
 	
 	public GameWonState(Handler handler){
 		super(handler);
 	}
 
-	@Override
-	public void tick() {
-		
-	}
 
 	@Override
 	public void render(Graphics g) {		
@@ -41,5 +37,11 @@ public class GameWonState extends State{
 	    int x = (handler.getWidth() - metrics.stringWidth(text)) / 2;	    // Determine the X coordinate for the text
 	    g.setFont(font);
 	    g.drawString(text, x, height);
+	}
+	
+
+	@Override
+	public void tick() {
+		
 	}
 }

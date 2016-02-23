@@ -1,5 +1,6 @@
 package mazegame.utils;
 
+/*Keep count of player lives*/
 public class LifeCounter {
 
 	private static int lives;

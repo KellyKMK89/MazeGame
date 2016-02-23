@@ -1,16 +1,16 @@
 package mazegame.utils;
+
 import java.io.*;
 import java.io.IOException;
 
 /*A Utility class used for loading and reading text files*/
-
 public class Utils {
 	
 	private static BufferedReader br;
 	public static boolean close = false;
 	
 	public static String loadFileAsString(String path){
-		StringBuilder builder = new StringBuilder();	//add characters to a string easily
+		StringBuilder builder = new StringBuilder();
 		
 		try{
 			BufferedReader br = new BufferedReader(new FileReader(path));

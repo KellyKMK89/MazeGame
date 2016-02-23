@@ -4,8 +4,7 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 /* The Animation class contains the logic for cycling though the arrays 
- * of frames used to animate the sprites*/
-
+ * of frames used to animate the moving sprites*/
 public class Animation {
 
 	private int speed; 	//speed of animation

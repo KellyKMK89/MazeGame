@@ -1,7 +1,6 @@
 package mazegame.worlds;
 
 import java.awt.Graphics;
-
 import mazegame.Handler;
 import mazegame.entities.EntityManager;
 import mazegame.entities.Player;
@@ -9,10 +8,8 @@ import mazegame.tiles.Tile;
 import mazegame.utils.Counter;
 import mazegame.utils.Utils;
 
-/* World class is the base class for all of the levels in the game, it
- * loads the tiles from a text file into the Tile array and instantiates
- * the Entity Manager*/
-
+/* World class is the base class for all of the levels in the game, it loads the tiles 
+ * from a text file into the Tile array and instantiates the Entity Manager*/
 public abstract class World {
 
 	private Handler handler;

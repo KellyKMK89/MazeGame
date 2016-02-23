@@ -123,6 +123,7 @@ public class Game implements Runnable{
     	stateManager();
     }
     
+    //Paint objects to the screen
     private void render(){
         bs = display.getCanvas().getBufferStrategy();   //buffer strategy sets the buffers
         if(bs== null){

@@ -5,7 +5,7 @@ import mazegame.input.KeyManager;
 import mazegame.utils.BoneCounter;
 import mazegame.worlds.World;
 
-/* Handler Class - one object - the Handler object - allows
+/* Handler Class - one object - the Handler object, allows
  * access to other common objects like Game, World and KeyManager*/
 
 public class Handler {

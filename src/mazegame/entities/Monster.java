@@ -8,7 +8,6 @@ import mazegame.tiles.Tile;
 
 /* The Monster class is the base class for all monster entites.
  * Contains the basic movement and collision code for all monsters*/
-
 public abstract class Monster extends Creature {
 	
 	//Animations
@@ -18,7 +17,6 @@ public abstract class Monster extends Creature {
 
 	public Monster(Handler handler, float x, float y, int width, int height, float speed) {
 		super(handler, x, y, width, height);
-		
 		//collision box of monster entity
 		bounds.x = 4;
 		bounds.y = 4;
@@ -26,8 +24,8 @@ public abstract class Monster extends Creature {
 		bounds.height = 24;
 		
 		this.speed = speed;
-		
 	}
+	
 	@Override
 	public abstract void tick();
 	

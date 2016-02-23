@@ -1,5 +1,6 @@
 package mazegame.utils;
 
+/*Keep track of the number of bones collected per level*/
 public class BoneCounter {
 	
 	public static int BONES_COLLECTED;

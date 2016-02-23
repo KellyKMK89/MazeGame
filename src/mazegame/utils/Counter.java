@@ -2,6 +2,7 @@ package mazegame.utils;
 
 import mazegame.audio.SoundClip;
 
+/*Increase count when player reaches next level and play the next level sound*/
 public class Counter {
 
 	private SoundClip levelSound;

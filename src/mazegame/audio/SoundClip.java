@@ -3,6 +3,9 @@ package mazegame.audio;
 import javax.sound.sampled.*;
 import java.io.*;
 
+
+/*This class loads audio files and contains play, loop and stop methods*/
+
 public class SoundClip {
 
 	private boolean looping = false;

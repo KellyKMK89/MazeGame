@@ -3,11 +3,11 @@ package mazegame.entities;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
-
 import mazegame.Handler;
 import mazegame.gfx.Animation;
 import mazegame.gfx.Assets;
 
+/*Contains player movement and animation code*/
 public class Player extends Creature{
 
 	//Animations
@@ -61,9 +61,8 @@ public class Player extends Creature{
 		}		
 	}
 
-	/* Player movement code. Prevents diagonal movement. If the player is 
-	 * standing still, return only the standing frame of player facing in  
-	 * the direction last moved.*/
+	/* Player movement code. Prevents diagonal movement. If the player is standing still, 
+	 * return only the standing frame of player facing in the direction last moved.*/
 	private BufferedImage getCurrentAnimationFrame(){
 		if(xMove < 0){
 			lastMove = 1;
