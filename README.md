@@ -2,9 +2,10 @@ MAZE MONSTER GAME
 Version 1.0
 
 ==========================================================================
+To play the game download it from dropbox:
+https://www.dropbox.com/sh/feh4rq7zlhud02w/AAA4EJ6uZe_Bc4Clx0GSdkqYa?dl=0
 
-Download link: https://www.dropbox.com/sh/feh4rq7zlhud02w/AAA4EJ6uZe_Bc4Clx0GSdkqYa?dl=0
-Github: https://github.com/KellyKMK89/MazeGame\
+Source code on Github: https://github.com/KellyKMK89/MazeGame\
 Email: kellykmk89@gmail.com
 ==========================================================================
 
@@ -20,7 +21,6 @@ file, the game will not work, as this folder contains the resources.
 INSTRUCTIONS:
 Guide the dog through the maze using the W,A,S,D keys to move. You must 
 collect 10 bones before being able to exit the maze and start the next level.
-
 
 **************************************************************************
 
