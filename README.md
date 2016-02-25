@@ -5,7 +5,8 @@ Version 1.0
 To play the game download it from dropbox:
 https://www.dropbox.com/sh/feh4rq7zlhud02w/AAA4EJ6uZe_Bc4Clx0GSdkqYa?dl=0
 
-Source code on Github: https://github.com/KellyKMK89/MazeGame\
+Source code on Github: https://github.com/KellyKMK89/MazeGame
+Email: KellyKMK89@gmail.com
 ==========================================================================
 
 RUNNING THE GAME:
